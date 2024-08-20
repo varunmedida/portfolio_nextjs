@@ -4,18 +4,12 @@ import React from 'react';
 import SectionHeading from './section-heading';
 import { motion } from 'framer-motion';
 import { useSectionInView } from '@/lib/hooks';
-// import { sendEmail } from '@/actions/sendEmail';
+import { sendEmail } from '@/actions/sendEmail';
 import SubmitBtn from './submit-btn';
 import toast from 'react-hot-toast';
 
 export default function Contact() {
   const { ref } = useSectionInView('Contact');
-
-  function sendEmail(
-    formData: FormData
-  ): { data: any; error: any } | PromiseLike<{ data: any; error: any }> {
-    throw new Error('Function not implemented.');
-  }
 
   return (
     <motion.section
@@ -39,8 +33,8 @@ export default function Contact() {
 
       <p className='text-gray-700 -mt-6 dark:text-white/80'>
         Please contact me directly at{' '}
-        <a className='underline' href='mailto:example@gmail.com'>
-          example@gmail.com
+        <a className='underline' href='mailto:varuns435@outlook.com'>
+          varuns435@outlook.com
         </a>{' '}
         or through this form.
       </p>
@@ -48,6 +42,7 @@ export default function Contact() {
       <form
         className='mt-10 flex flex-col dark:text-black'
         action={async (formData) => {
+          // await sendEmail(formData);
           const { data, error } = await sendEmail(formData);
 
           if (error) {
@@ -73,7 +68,7 @@ export default function Contact() {
           required
           maxLength={5000}
         />
-        {/* <SubmitBtn /> */}
+        <SubmitBtn />
       </form>
     </motion.section>
   );
