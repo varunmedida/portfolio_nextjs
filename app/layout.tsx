@@ -33,7 +33,7 @@ export default function RootLayout({
             <Footer />
 
             <Toaster position='top-right' />
-            <ThemeSwitch />
+            <ThemeSwitch>dark</ThemeSwitch>
           </ActiveSectionContextProvider>
         </ThemeContextProvider>
       </body>
