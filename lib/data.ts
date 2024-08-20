@@ -36,28 +36,36 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'Graduated bootcamp',
-    location: 'Miami, FL',
+    title: 'Software Engineer at EPAM Systems',
+    location: 'Hyderabad, India',
     description:
-      'I graduated after 6 months of studying. I immediately found a job as a front-end developer.',
-    icon: React.createElement(LuGraduationCap),
-    date: '2019',
-  },
-  {
-    title: 'Front-End Developer',
-    location: 'Orlando, FL',
-    description:
-      'I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.',
-    icon: React.createElement(CgWorkAlt),
-    date: '2019 - 2021',
-  },
-  {
-    title: 'Full-Stack Developer',
-    location: 'Houston, TX',
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      'Contributed to the CARMA wealth management tool using Java, Spring Boot, and AWS. Enhanced project performance and scalability using CQRS patterns. Resolved critical infrastructure issues, leading to significant cost savings.',
     icon: React.createElement(FaReact),
-    date: '2021 - present',
+    date: '2020 - 2022',
+  },
+  {
+    title: 'Associate System Engineer at Tata Consultancy Services',
+    location: 'Hyderabad, India',
+    description:
+      'Executed data migration projects, reduced backup failures by 85%, and spearheaded database administration tasks. Utilized factory design patterns to improve scalability and reduce development time.',
+    icon: React.createElement(CgWorkAlt),
+    date: '2019 - 2020',
+  },
+  {
+    title: 'Intern at Spyry Technologies',
+    location: 'Hyderabad, India',
+    description:
+      'Conducted Vulnerability Assessment and Penetration Testing on web applications, identifying and mitigating security vulnerabilities using Kali Linux and Burp Suite.',
+    icon: React.createElement(LuGraduationCap),
+    date: 'March 2018 - May 2018',
+  },
+  {
+    title: 'Graduate Research Assistant at Georgia State College of Law',
+    location: 'Atlanta, Georgia, USA',
+    description:
+      'Automated data collection processes, increasing efficiency by 70%. Developed dynamic data visualizations using Python and Matplotlib, enhancing data analysis accessibility by 20%.',
+    icon: React.createElement(LuGraduationCap),
+    date: '2023 - Present',
   },
 ] as const;
 
@@ -70,13 +78,6 @@ export const projectsData = [
     imageUrl: ecommerceImg,
   },
   {
-    title: 'Portfolio',
-    description:
-      'Crafted a dynamic portfolio using TypeScript, Next.js, and React, styled with Tailwind CSS and animated with Framer Motion',
-    tags: ['TypeScript', 'Next.js', 'Tailwind', 'React', 'Framer Motion'],
-    imageUrl: portfolio,
-  },
-  {
     title: 'File Flow',
     description:
       'Developed an application that processes uploaded files via EC2, storing results in S3 and logging details in DynamoDB.',
@@ -87,8 +88,15 @@ export const projectsData = [
     title: 'Wealth Management',
     description:
       'A wealth management tool utilizing AWS and CQRS patterns to manage client portfolios efficiently, enhancing data handling and scalability.',
-    tags: ['Java', 'Dagger', 'AWS', 'CQRS', 'Lambda', 'DynamoDB', 'SQS'],
+    tags: ['Java', 'Dagger', 'DynamoDB', 'CQRS', 'Lambda', 'AWS', 'SQS'],
     imageUrl: wealthManagement,
+  },
+  {
+    title: 'Portfolio',
+    description:
+      'Crafted a dynamic portfolio using TypeScript, Next.js, and React, styled with Tailwind CSS and animated with Framer Motion',
+    tags: ['TypeScript', 'Next.js', 'Tailwind', 'React', 'Framer Motion'],
+    imageUrl: portfolio,
   },
 ] as const;
 
