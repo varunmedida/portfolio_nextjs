@@ -45,8 +45,8 @@ export default function About() {
         movies, or unwinding with my dog, I bring the same enthusiasm to my
         personal pursuits as I do to my professional projects. Additionally, I'm
         continually enriching my understanding of the world through ongoing
-        studies in history and philosophy and honing my creative expression
-        through guitar, making every day a journey of discovery and{' '}
+        studies in Computer Science and honing my creative expression through
+        guitar, making every day a journey of discovery and{' '}
         <span className='font-medium'>growth </span>.
       </p>
     </motion.section>
