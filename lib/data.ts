@@ -2,9 +2,10 @@ import React from 'react';
 import { CgWorkAlt } from 'react-icons/cg';
 import { FaReact } from 'react-icons/fa';
 import { LuGraduationCap } from 'react-icons/lu';
-import corpcommentImg from '@/public/corpcomment.png';
-import rmtdevImg from '@/public/rmtdev.png';
-import wordanalyticsImg from '@/public/wordanalytics.png';
+import ecommerceImg from '@/public/eCommerce.png';
+import portfolio from '@/public/pf.png';
+import fileFlow from '@/public/ff.png';
+import wealthManagement from '@/public/wm.png';
 
 export const links = [
   {
@@ -62,25 +63,32 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: 'CorpComment',
+    title: 'eCommerce',
     description:
-      'I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.',
-    tags: ['React', 'Next.js', 'MongoDB', 'Tailwind', 'Prisma'],
-    imageUrl: corpcommentImg,
+      'Designed and developed a full-stack eCommerce platform using Java Spring Boot and Angular, enhancing user shopping experiences.',
+    tags: ['Java', 'Spring boot', 'MySQL', 'Angular'],
+    imageUrl: ecommerceImg,
   },
   {
-    title: 'rmtDev',
+    title: 'Portfolio',
     description:
-      'Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.',
-    tags: ['React', 'TypeScript', 'Next.js', 'Tailwind', 'Redux'],
-    imageUrl: rmtdevImg,
+      'Crafted a dynamic portfolio using TypeScript, Next.js, and React, styled with Tailwind CSS and animated with Framer Motion',
+    tags: ['TypeScript', 'Next.js', 'Tailwind', 'React', 'Framer Motion'],
+    imageUrl: portfolio,
   },
   {
-    title: 'Word Analytics',
+    title: 'File Flow',
     description:
-      'A public web app for quick analytics on text. It shows word count, character count and social media post limits.',
-    tags: ['React', 'Next.js', 'SQL', 'Tailwind', 'Framer'],
-    imageUrl: wordanalyticsImg,
+      'Developed an application that processes uploaded files via EC2, storing results in S3 and logging details in DynamoDB.',
+    tags: ['React', 'AWS', 'DynamoDB', 'Tailwind', 'EC2', 'Lambda', 'S3'],
+    imageUrl: fileFlow,
+  },
+  {
+    title: 'Wealth Management',
+    description:
+      'A wealth management tool utilizing AWS and CQRS patterns to manage client portfolios efficiently, enhancing data handling and scalability.',
+    tags: ['Java', 'Dagger', 'AWS', 'CQRS', 'Lambda', 'DynamoDB', 'SQS'],
+    imageUrl: wealthManagement,
   },
 ] as const;
 
