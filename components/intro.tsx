@@ -29,7 +29,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src='/image.png'
+              src='/image.jpg'
               alt='Varun portrait'
               width='192'
               height='192'
