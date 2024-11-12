@@ -6,6 +6,7 @@ import ecommerceImg from '@/public/eCommerce.png';
 import portfolio from '@/public/pf.png';
 import fileFlow from '@/public/ff.png';
 import wealthManagement from '@/public/wm.png';
+import disasterInsight from '@/public/da.png';
 
 export const links = [
   {
@@ -71,11 +72,11 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: 'eCommerce',
+    title: 'Disaster Insight',
     description:
-      'Designed and developed a full-stack eCommerce platform using Java Spring Boot and Angular, enhancing user shopping experiences.',
-    tags: ['Java', 'Spring boot', 'MySQL', 'Angular'],
-    imageUrl: ecommerceImg,
+      'App that visualizes and analyzes global disaster data by automating extraction from EM-DAT, processing it with Python, and displaying it on interactive maps.',
+    tags: ['Java', 'Spring boot', 'MySQL', 'React'],
+    imageUrl: disasterInsight,
   },
   {
     title: 'File Flow',
@@ -83,6 +84,13 @@ export const projectsData = [
       'Developed an application that processes uploaded files via EC2, storing results in S3 and logging details in DynamoDB.',
     tags: ['React', 'AWS', 'DynamoDB', 'Tailwind', 'EC2', 'Lambda', 'S3'],
     imageUrl: fileFlow,
+  },
+  {
+    title: 'eCommerce',
+    description:
+      'Designed and developed a full-stack eCommerce platform using Java Spring Boot and Angular, enhancing user shopping experiences.',
+    tags: ['Java', 'Spring boot', 'MySQL', 'Angular'],
+    imageUrl: ecommerceImg,
   },
   {
     title: 'Wealth Management',
