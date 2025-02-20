@@ -37,6 +37,22 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: 'Java Developer at Storee Construction',
+    location: 'Springfield, Missouri, USA',
+    description:
+      'Developed a construction site management dashboard using AWS, Java (Spring Boot), and React, streamlining delivery, procurement, and accounting processes. Implemented AWS CloudWatch, X-Ray, and Lambda for real-time tracking and performance optimization. Integrated S3, DynamoDB, and API Gateway with secure IAM policies for robust, scalable operations.',
+    icon: React.createElement(FaReact),
+    date: '2024 - 2024',
+  },
+  {
+    title: 'Software Engineer at Georgia State College of Law',
+    location: 'Atlanta, Georgia, USA',
+    description:
+      'Automated data collection processes, increasing efficiency by 70%. Developed dynamic data visualizations using Python and Matplotlib, enhancing data analysis accessibility by 20%.',
+    icon: React.createElement(LuGraduationCap),
+    date: '2023 - 2024',
+  },
+  {
     title: 'Software Engineer at EPAM Systems',
     location: 'Hyderabad, India',
     description:
@@ -59,14 +75,6 @@ export const experiencesData = [
       'Conducted Vulnerability Assessment and Penetration Testing on web applications, identifying and mitigating security vulnerabilities using Kali Linux and Burp Suite.',
     icon: React.createElement(LuGraduationCap),
     date: 'March 2018 - May 2018',
-  },
-  {
-    title: 'Graduate Research Assistant at Georgia State College of Law',
-    location: 'Atlanta, Georgia, USA',
-    description:
-      'Automated data collection processes, increasing efficiency by 70%. Developed dynamic data visualizations using Python and Matplotlib, enhancing data analysis accessibility by 20%.',
-    icon: React.createElement(LuGraduationCap),
-    date: '2023 - Present',
   },
 ] as const;
 
